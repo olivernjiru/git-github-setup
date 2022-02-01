@@ -5,8 +5,6 @@
 <h3>For your email address:</h3>
 <p>git config --global user.email "your_email@example.com"</p>
 #Don’t type the $; that just indicates that you’re doing this at the command line.
-<p>Miscelleanous<p>
-<a href="https://kbroman.org/github_tutorial/pages/first_time.html">Source</a>
 <hr>
 
 # How to Commit
@@ -31,3 +29,6 @@ git remote add origin https://github.com/yourusername/yourrepositoryname.git
 git branch -M main
 <h3>Finally, push!</h3>
 git push -u origin main
+<hr>
+<p>Miscelleanous<p>
+<a href="https://kbroman.org/github_tutorial/pages/first_time.html">Source</a>
