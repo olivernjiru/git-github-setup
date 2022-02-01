@@ -30,5 +30,12 @@ git branch -M main
 <h3>Finally, push!</h3>
 git push -u origin main
 <hr>
+
+# How to keep a local repository and an online one up to date
+<h3>To pull with rebase:</h3>
+git pull --rebase
+<h3>To push!</h3>
+git push -u origin main
+<hr>
 <p>Miscelleanous<p>
 <a href="https://kbroman.org/github_tutorial/pages/first_time.html">Source</a>
