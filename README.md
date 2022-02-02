@@ -1,9 +1,17 @@
 # Git Setup
 <h1>After Installing git, set it up with your username and email address. To do so, open a terminal/shell, I recommend the one in the git app and type:</h1>
 <h3>For your name:</h3>
-<p>git config --global user.name "Your name here"</p>
+
+```
+$ git config --global user.name "Your name here"
+```
+
 <h3>For your email address:</h3>
-<p>git config --global user.email "your_email@example.com"</p>
+
+```
+$ git config --global user.email "your_email@example.com"
+ ```
+  
 #Don’t type the $; that just indicates that you’re doing this at the command line.
 <hr>
 
