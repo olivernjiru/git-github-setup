@@ -16,37 +16,37 @@ $ git config --global user.email "your_email@example.com"
 <hr>
 
 # How to Commit
-<h3>To initialize a git repository in a folder:</h3>
+1) Initialize a git repository in a folder:
 
 ```
 git init
 ```
 
-<h3>To add everything to a commit:</h3>
+2) Add everything to a commit:
 
 ```
 git add .
 ```
 
-<h3>Your Commit Message:</h3>
+3) Add your Commit Message:
 
 ```
 git commit -m "Initial Commit"
 ```
 
-<h3>Specify the branch you want to push to:</h3>
+4) Specify the branch you want to push to:
 
 ```
 git branch -M main
 ```
 
-<h3>Add the url of the repository you wanna push to:</h3>
+5) Add the url of the repository you wanna push to:
 
 ```
 git remote add origin https://github.com/yourusername/yourrepositoryname.git
 ```
 
-<h3>Finally, push!</h3>
+6) Finally, push!
 
 ```
 git push -u origin main
@@ -55,19 +55,19 @@ git push -u origin main
 <hr>
 
 # Push an existing repository
-<h3>Add the url of the repository you wanna push to:</h3>
+1) Add the url of the repository you wanna push to:
 
 ```
 git remote add origin https://github.com/yourusername/yourrepositoryname.git
 ```
 
-<h3>Specify the branch you want to push to:</h3>
+2) Specify the branch you want to push to:
 
 ```
 git branch -M main
 ```
 
-<h3>Finally, push!</h3>
+3) Finally, push!
 
 ```
 git push -u origin main
@@ -76,17 +76,29 @@ git push -u origin main
 <hr>
 
 # How to keep a local repository and an online one up to date
-<h3>To pull with rebase:</h3>
+1) Pull with rebase:
 
 ```
 git pull --rebase
 ```
 
-<h3>To push!</h3>
+2) Push!
 
 ```
 git push -u origin main
 ```
+
+# Clone a repository
+1) Navigate to the main page of the repository.
+2) Above the list of files, click  Code.
+3) To clone the repository using HTTPS, under "Clone with HTTPS", click the copy button. To clone the repository using an SSH key, including a certificate issued by your organization's SSH certificate authority, click Use SSH, then click the copy button. To clone a repository using GitHub CLI, click Use GitHub CLI, then click the copy button.
+4) Open Git Bash.
+5) Change the current working directory to the location where you want the cloned directory.
+6) Type:
+   ```
+   $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+   ```
+7) Press Enter to create your local clone.
 
 <hr>
 <p>Miscelleanous<p>
